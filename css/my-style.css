@@ -1,0 +1,38 @@
+.judul{
+	padding-top: 10px;
+}
+.judul img{
+	float: left;
+	margin-right: 15px;
+}
+.judul h2{
+	color : #006DF0;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.alamat{
+	text-align: right;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.alamat h4,p{
+	margin: 0px;
+	color: #282923;
+}
+.alamat img{
+	width: 36px;
+	height: 36px;
+}
+
+.menu{
+	background-image: url(../images/bg-menu.jpg);
+}
+.menu a{
+	color: white;
+}
+
+.slider{
+	background-color: #0F3065;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
