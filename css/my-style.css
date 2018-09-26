@@ -26,16 +26,31 @@
 
 .menu{
 	background-image: url(../images/bg-menu.jpg);
-}
-.menu a{
-	color: white;
+  background-repeat: repeat-x;
+  background-color: #0F3065;
 }
 
 .slider{
-	background-color: #0F3065;
+	background-color: #023B82;
 	padding-top: 15px;
 	padding-bottom: 20px;
 }
+.slider .carousel-item{
+  border: 5px white solid;  
+}
+
 .platform{
 	margin:20px auto 20px;
+}
+
+@media (max-width: 767.98px) { 
+  .judul{
+    text-align : center;
+  }
+  .judul img{
+    float: none;
+  }
+  .alamat{
+    text-align: center;
+  }
 }
