@@ -43,6 +43,19 @@
 	margin:20px auto 20px;
 }
 
+.content{
+  margin-bottom: 20px;
+}
+.content p{
+  text-align: justify;
+}
+
+.footer{
+  background-color: #023B82;
+  color: white;
+  padding: 15px 5px;
+}
+
 @media (max-width: 767.98px) { 
   .judul{
     text-align : center;
