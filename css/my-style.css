@@ -26,8 +26,8 @@
 
 .menu{
 	background-image: url(../images/bg-menu.jpg);
-  background-repeat: repeat-x;
-  background-color: #0F3065;
+  	background-repeat: repeat-x;
+  	background-color: #0F3065;
 }
 
 .slider{
@@ -36,27 +36,46 @@
 	padding-bottom: 20px;
 }
 .slider .carousel-item{
-  border: 5px white solid;  
+  	border: 5px white solid;  
 }
 
 .platform{
 	margin:20px auto 20px;
 }
 .platform .card{
-  margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .content{
-  margin-bottom: 20px;
+	margin-top: 20px;
+  	margin-bottom: 20px;
 }
 .content p{
-  text-align: justify;
+  	text-align: justify;
 }
 
+.blog-item{
+	border-bottom: 2px lightgray dashed;
+	padding: 15px 10px 25px 30px;
+	margin-bottom: 10px;
+}
+
+.blog-title{
+	color: #282923;
+}
+.blog-date{
+	color: gray;
+}
+
+.blog-more{
+	margin-top: 15px;
+}
+
+
 .footer{
-  background-color: #023B82;
-  color: white;
-  padding: 15px 5px;
+	background-color: #023B82;
+	color: white;
+	padding: 15px 5px;
 }
 
 @media (max-width: 767.98px) { 
