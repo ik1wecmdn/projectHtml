@@ -53,6 +53,13 @@
 .content p{
   	text-align: justify;
 }
+.content h4{
+	margin-top: 15px;
+}
+
+.iklan{
+	margin: 10px auto 10px;
+}
 
 .blog-item{
 	border-bottom: 2px lightgray dashed;
