@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Login</title>
+		<title>Register</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" href="images/icon.png">
@@ -18,34 +18,29 @@
 				background-position: center;
 				background-size: cover;
 				background-repeat: no-repeat;
-				height: 100vh;
 			}
-			.form-login{
+			.form-register{
 				width: 90%;
 				max-width: 500px;
+				margin: 20px auto;
 				background-color: white;
 				padding: 20px 15px;
 				border: 1px solid gray;
 				border-top: 3px solid #007BFF;
-				margin: 50px auto;
-				/*position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);*/
 				box-shadow: 5px 5px 15px gray;
 				animation: bounceInDown 1s;
 			}
-			.form-login h2{margin:0px;}
+			.form-register h2{margin:0px;}
 			
 		</style>
 
 	</head>
 	<body>
 
-		<div class="form-login">
-			<h2>LOGIN</h2>
-			<p>Please enter user and password..!</p>
-			<form action="loginaction.php" method="post">
+		<div class="form-register">
+			<h2>Register</h2>
+			<p>Please enter your details..!</p>
+			<form action="registeraction.php" method="post">
 				<div class="form-group">
 					<label>Username / Email :</label>
 					<input type="email" class="form-control" name="txtEmail" required="required">
@@ -54,13 +49,24 @@
 					<label>Password :</label>
 					<input type="password" class="form-control" name="txtPassword" required="required">
 				</div>
-				<div class="form-group form-check">
-					<input type="checkbox" class="form-check-input" name="chkRemember">
-					<label>Remember Password</label>
+				<div class="form-group">
+					<label>Repeat Password :</label>
+					<input type="password" class="form-control" name="txtRepassword" required="required">
 				</div>
 				<div class="form-group">
-					<button type="submit" class="btn btn-primary btn-block">LOGIN</button>
-					<button type="button" class="btn btn-link btn-block">Forgot Password ?</button>
+					<label>Fullname :</label>
+					<input type="text" class="form-control" name="txtName" required="required">
+				</div>
+				<div class="form-group">
+					<label>Phone Number :</label>
+					<input type="text" class="form-control" name="txtHP">
+				</div>
+				<div class="form-group form-check">
+					<input type="checkbox" class="form-check-input" name="chkAccept">
+					<label> Accept License of Agreement</label>
+				</div>
+				<div class="form-group">
+					<button type="submit" class="btn btn-primary btn-block">REGISTER</button>
 				</div>
 			</form>
 		</div>
