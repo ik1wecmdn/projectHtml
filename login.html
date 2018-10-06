@@ -36,13 +36,14 @@
 				animation: bounceInDown 1s;
 			}
 			.form-login h2{margin:0px;}
-			
+			.btn-close{float:right; position: relative; right: -5px; top:-10px;}
 		</style>
 
 	</head>
 	<body>
 
 		<div class="form-login">
+			<a href="index.html" class="btn btn-light btn-close">X</a>
 			<h2>LOGIN</h2>
 			<p>Please enter user and password..!</p>
 			<form action="loginaction.php" method="post">
@@ -63,6 +64,15 @@
 					<button type="button" class="btn btn-link btn-block">Forgot Password ?</button>
 				</div>
 			</form>
+			<p style="text-align: center;color: gray;">- or continue using -<p>
+			<div class="row">
+				<div class="col">
+					<button class="btn btn-block btn-info"><i class="fab fa-facebook-f"></i> Facebook Login</button>
+				</div>
+				<div class="col">
+					<button class="btn btn-block btn-danger"><i class="fab fa-google-plus-g"></i> Google Login</button>
+				</div>
+			</div>
 		</div>
 
 		<script src="lib/jquery-3.3.1.slim.min.js"></script>
