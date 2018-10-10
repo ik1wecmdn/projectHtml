@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Admin Dashboard</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- MDBootstrap Datatables  -->
+    <link href="css/addons/datatables.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Start your project here-->
+    
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark primary-color-dark scrolling-navbar">
+        <a class="navbar-brand" href="#"><strong>IK1-2018</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Siswa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tenaga Pendidik</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-user"> Profil</i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container-fluid">
+        <div class="row mt-5 pt-5">
+          <div class="col">
+            <div class="card">
+              <h3 class="card-header primary-color white-text">Input Data Siswa</h3>
+              <div class="card-body">
+                <form id="formSiswa">
+                  <div class="md-form">
+                    <input type="text" id="txtNis" class="form-control">
+                    <label for="txtNis">Nomor Induk Siswa :</label>
+                  </div>
+                  <div class="md-form">
+                    <input type="text" id="txtNama" class="form-control">
+                    <label for="txtNama">Nama Lengkap :</label>
+                  </div>
+                  <div class="md-form">
+                    <input type="text" id="txtKelas" class="form-control">
+                    <label for="txtKelas">Kelas :</label>
+                  </div>
+                  <div class="md-form">
+                    <textarea type="text" id="txtAlamat" class="form-control md-textarea" rows="3"></textarea>
+                    <label for="txtAlamat">Alamat :</label>
+                  </div>
+                  <p class="mb-1">Jenis Kelamin :</p>
+                  <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="rdoLaki" name="rdoJK">
+                    <label class="custom-control-label" for="rdoLaki">Laki Laki</label>
+                  </div>
+                  <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="rdoPerem" name="rdoJK">
+                    <label class="custom-control-label" for="rdoPerem">Perempuan</label>
+                  </div>
+                  <div class="md-form">
+                    <input type="tel" id="txtNoHp" class="form-control">
+                    <label for="txtNoHp">Nomor HP :</label>
+                  </div>
+                  <div class="md-form">
+                    <input type="email" id="txtEmail" class="form-control">
+                    <label for="txtEmail">Email :</label>
+                  </div>
+                  
+                  <a href="index.html" class="btn btn-danger"><i class="fa fa-chevron-left"></i> Batal</a>
+                  <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Simpan</button>
+                  
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- /Start your project here-->
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+  </body>
+</html>
